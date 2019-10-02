@@ -1,0 +1,34 @@
+.gallery .control-button {
+  color: blue;
+}
+
+.gallery .control-button:hover {
+  color: skyblue;
+}
+
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+.gallery .item {
+  height: 300px;
+  overflow: hidden;
+  text-align: center;
+}
+.gallery .controls {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.gallery .control-button {
+  display: inline-block;
+  margin: 0.04em;
+  font-size: 4em;
+  text-align: center;
+  text-decoration: none;
+  transition: color .3s;
+  text-shadow: 1px 1px 10px blue;
+}
